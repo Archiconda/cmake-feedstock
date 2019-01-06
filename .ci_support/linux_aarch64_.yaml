@@ -1,9 +1,12 @@
+BUILD: aarch64-conda_cos7-linux-gnu
 bzip2:
 - '1'
 c_compiler:
 - gcc
 channel_sources:
-- conda-forge,defaults
+- archiarm,
+channel_targets:
+- archiarm main
 curl:
 - '7.59'
 cxx_compiler:
