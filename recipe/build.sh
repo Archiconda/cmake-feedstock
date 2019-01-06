@@ -11,7 +11,6 @@ export CXXFLAGS=$(echo "$CXXFLAGS" |sed -e "s|-I$PREFIX/include||")
 export DEBUG_CXXFLAGS=$(echo "$DEBUG_CXXFLAGS" |sed -e "s|-I$PREFIX/include||")
 
 ./bootstrap \
-             --verbose \
              --prefix="${PREFIX}" \
              --system-libs \
              --no-qt-gui \
