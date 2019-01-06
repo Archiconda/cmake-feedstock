@@ -8,7 +8,7 @@ channel_sources:
 channel_targets:
 - archiarm main
 curl:
-- '7.59'
+- '7.63'
 cxx_compiler:
 - gxx
 expat:
